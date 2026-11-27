@@ -1,8 +1,8 @@
 # The Real Deal Finder — Black Friday + Cyber Monday 2026
 
 [![make.fun · black-friday-deal-finder-01](https://make.fun/badge/black-friday-deal-finder-01.svg)](https://make.fun/bounty/black-friday-deal-finder-01)
-[![make.fun rank](https://make.fun/badge/black-friday-deal-finder-01/vickyair1/the-real-deal-finder/rank.svg)](https://make.fun/bounty/black-friday-deal-finder-01)
-[![make.fun reward](https://make.fun/badge/black-friday-deal-finder-01/vickyair1/the-real-deal-finder/reward.svg)](https://make.fun/bounty/black-friday-deal-finder-01)
+[![make.fun rank](https://make.fun/badge/black-friday-deal-finder-01/vickyair1/black-friday-deal-finder-01/rank.svg)](https://make.fun/bounty/black-friday-deal-finder-01)
+[![make.fun reward](https://make.fun/badge/black-friday-deal-finder-01/vickyair1/black-friday-deal-finder-01/reward.svg)](https://make.fun/bounty/black-friday-deal-finder-01)
 
 **Bounty:** [Build the best real Black Friday deal finder](https://make.fun/bounty/black-friday-deal-finder-01) — $250 pot, top 20 paid.
 
