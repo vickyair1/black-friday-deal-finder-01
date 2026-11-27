@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Real Deal Finder — Black Friday + Cyber Monday 2026</title>
+<meta name="description" content="44 real Black Friday and Cyber Monday deals, checked 24–26 Nov 2026, each with store, sale price, usual price and an honest is-it-really-a-deal verdict.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="kicker">BLACK FRIDAY &middot; CYBER MONDAY &middot; 2026</p>
+    <h1>The Real Deal Finder</h1>
+    <p class="lede">44 deals we found and checked ourselves — each with its store, its sale price, its usual price, and an honest verdict on whether it is really a deal. Three of them are not. Prices checked 24&ndash;26 Nov 2026. Re-check before you buy; prices move fast this week.</p>
+    <dl class="stats" id="stats"></dl>
+  </div>
+</header>
+
+<main>
+  <section class="controls" aria-label="Search and filter deals">
+    <div class="controls-row">
+      <label class="search-box">
+        <span class="visually-hidden">Search deals</span>
+        <input id="q" type="search" placeholder="Search a product, brand or store&hellip;" autocomplete="off">
+      </label>
+      <label>Store
+        <select id="store">
+          <option value="All">All stores</option>
+          <option>Amazon</option>
+          <option>Best Buy</option>
+          <option>Walmart</option>
+        </select>
+      </label>
+      <label>Min. discount
+        <select id="minDiscount">
+          <option value="0">Any discount</option>
+          <option value="20">20% off or more</option>
+          <option value="30">30% off or more</option>
+          <option value="40">40% off or more</option>
+          <option value="50">50% off or more</option>
+        </select>
+      </label>
+      <label>Sort by
+        <select id="sort">
+          <option value="discount">Biggest discount</option>
+          <option value="saving">Biggest saving ($)</option>
+          <option value="priceAsc">Lowest price</option>
+          <option value="priceDesc">Highest price</option>
+          <option value="verdict">Best verdict first</option>
+        </select>
+      </label>
+      <label>Verdict
+        <select id="verdict">
+          <option value="All">All verdicts</option>
+          <option value="real">Real Deal only</option>
+          <option value="strong">Strong Deal only</option>
+          <option value="decent">Decent Deal only</option>
+          <option value="routine">Routine only</option>
+        </select>
+      </label>
+    </div>
+    <div class="chips" id="categoryChips" role="group" aria-label="Filter by category"></div>
+    <p class="result-line" id="resultLine" aria-live="polite"></p>
+  </section>
+
+  <section aria-label="Deals">
+    <div class="deal-grid" id="dealGrid"></div>
+    <p class="empty" id="emptyState" hidden>No deals match those filters. Loosen the discount or clear the search.</p>
+  </section>
+
+  <section class="compare" id="compare" aria-label="Same product, compared across stores">
+    <h2>Same product, compared across stores</h2>
+    <p class="section-note">Where we found the same product at more than one store, here is the honest comparison — no store wins by default.</p>
+    <div id="compareList"></div>
+  </section>
+
+  <section class="method" aria-label="How we check a deal">
+    <h2>How we check a deal</h2>
+    <ol>
+      <li><strong>Find it live.</strong> Every deal on this page was read in a retailer listing or a deals tracker that names the store, 24&ndash;26 Nov 2026. Nothing here is copied from last year or guessed.</li>
+      <li><strong>Do the maths.</strong> The discount is the sale price against the usual price, and the two must add up — the % on each card is computed from the prices shown.</li>
+      <li><strong>Call it honestly.</strong> A big % off a raised list price is not a deal. Two listings on this page carry a ROUTINE verdict with the evidence written on the card: Amazon raised the Fire TV Stick 4K Plus list from $49.99 to $69.99 and the Kindle Colorsoft list from $249.99 to $289.99 in August 2026, before the sale.</li>
+      <li><strong>Show the receipt.</strong> Each card names where the price was read and when, and links to the product at that store.</li>
+    </ol>
+    <h3>What the verdicts mean</h3>
+    <ul class="legend" id="legend"></ul>
+    <p class="fineprint">Sale windows: Amazon 19&ndash;30 Nov &middot; Best Buy 19&ndash;28 Nov &middot; Walmart 23&ndash;29 Nov. Prices change during the sale and stock sells out; the price at the store is the final word. This page is an independent finder: it is not affiliated with Amazon, Best Buy or Walmart, and it copies no store's branding, text or images.</p>
+  </section>
+</main>
+
+<footer>
+  <p>The Real Deal Finder &middot; Built for Black Friday + Cyber Monday 2026 &middot; 44 deals checked 24&ndash;26 Nov 2026</p>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
